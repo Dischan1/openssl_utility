@@ -1,0 +1,44 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33312.197
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openssl_dll", "openssl_dll\openssl_dll.vcxproj", "{936F73E1-CC08-45AE-A939-2C7F1542C506}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "openssl_injector", "openssl_injector\openssl_injector.vcxproj", "{590EC017-BC89-4E17-BA24-A783408E8515}"
+	ProjectSection(ProjectDependencies) = postProject
+		{936F73E1-CC08-45AE-A939-2C7F1542C506} = {936F73E1-CC08-45AE-A939-2C7F1542C506}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{936F73E1-CC08-45AE-A939-2C7F1542C506}.Debug|x64.ActiveCfg = Debug|x64
+		{936F73E1-CC08-45AE-A939-2C7F1542C506}.Debug|x64.Build.0 = Debug|x64
+		{936F73E1-CC08-45AE-A939-2C7F1542C506}.Debug|x86.ActiveCfg = Debug|Win32
+		{936F73E1-CC08-45AE-A939-2C7F1542C506}.Debug|x86.Build.0 = Debug|Win32
+		{936F73E1-CC08-45AE-A939-2C7F1542C506}.Release|x64.ActiveCfg = Release|x64
+		{936F73E1-CC08-45AE-A939-2C7F1542C506}.Release|x64.Build.0 = Release|x64
+		{936F73E1-CC08-45AE-A939-2C7F1542C506}.Release|x86.ActiveCfg = Release|Win32
+		{936F73E1-CC08-45AE-A939-2C7F1542C506}.Release|x86.Build.0 = Release|Win32
+		{590EC017-BC89-4E17-BA24-A783408E8515}.Debug|x64.ActiveCfg = Debug|x64
+		{590EC017-BC89-4E17-BA24-A783408E8515}.Debug|x64.Build.0 = Debug|x64
+		{590EC017-BC89-4E17-BA24-A783408E8515}.Debug|x86.ActiveCfg = Debug|Win32
+		{590EC017-BC89-4E17-BA24-A783408E8515}.Debug|x86.Build.0 = Debug|Win32
+		{590EC017-BC89-4E17-BA24-A783408E8515}.Release|x64.ActiveCfg = Release|x64
+		{590EC017-BC89-4E17-BA24-A783408E8515}.Release|x64.Build.0 = Release|x64
+		{590EC017-BC89-4E17-BA24-A783408E8515}.Release|x86.ActiveCfg = Release|Win32
+		{590EC017-BC89-4E17-BA24-A783408E8515}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {50F5EAE7-07CF-493E-96B2-14760FE468C6}
+	EndGlobalSection
+EndGlobal
